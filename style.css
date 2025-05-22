@@ -8,6 +8,7 @@
     Default - 1
     1.05
     1.6
+    1.2
   
   -Font-weights
     400
@@ -25,6 +26,7 @@
 -Shades
   #fdf2e9
 -Grays
+  #333
 
 */
 
@@ -71,13 +73,33 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.heading-primary {
-  font-size: 5.2rem;
+.heading-primary,
+.heading-secondary {
   font-weight: 700;
-  line-height: 1.05;
   letter-spacing: -0.5px;
   color: #333;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
   margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
+.subheading {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #cf711f;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
 }
 
 .btn:link,
@@ -244,5 +266,8 @@ body {
 
 .section-how {
   padding: 9.6rem 0;
-  background-color: orangered;
+}
+
+.step-img {
+  width: 50%;
 }
