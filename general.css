@@ -22,6 +22,9 @@
 
 -Primary 
   #e67e22
+  #94d82d
+  #51cf66
+  #ffd43b
 -Tints
 -Shades
   #fdf2e9
@@ -153,4 +156,8 @@ body {
 
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+strong {
+  font-weight: 500;
 }
