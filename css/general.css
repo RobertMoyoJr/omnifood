@@ -28,6 +28,7 @@
 -Tints
 -Shades
   #fdf2e9
+  #45260a
 -Grays
   #333
   #555
@@ -42,6 +43,11 @@ GENERAL REUSABLE COMPONENTS
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 6px rgba(230, 125, 34, 0.5);
 }
 
 html {
@@ -137,6 +143,7 @@ body {
   border-bottom: 1px solid transparent;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -146,6 +153,10 @@ body {
   font-weight: 600;
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
+
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 
   transition: background-color 0.3s;
 }
@@ -174,6 +185,19 @@ body {
   color: #555;
 
   box-shadow: inset 0 0 0 3px #fff;
+}
+
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
 }
 
 .center-text {
