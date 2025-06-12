@@ -519,7 +519,7 @@
 
 .cta *:focus {
   outline: none;
-  box-shadow: 0 0 0 6px rgba(253, 242, 233, 0.5);
+  box-shadow: 0 0 0 0.6rem rgba(253, 242, 233, 0.5);
 }
 
 .cta-img-box {
@@ -531,4 +531,11 @@
     url("../img/eating.jpg");
   background-size: cover;
   background-position: center;
+}
+
+/******************************
+/* Footer SECTION *
+******************************/
+.section-footer {
+  padding: 9.6rem 0;
 }

@@ -47,7 +47,7 @@ GENERAL REUSABLE COMPONENTS
 
 *:focus {
   outline: none;
-  box-shadow: 0 0 0 6px rgba(230, 125, 34, 0.5);
+  box-shadow: 0 0 0 0.6rem rgba(230, 125, 34, 0.5);
 }
 
 html {
@@ -87,6 +87,10 @@ body {
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .grid--center-v {
