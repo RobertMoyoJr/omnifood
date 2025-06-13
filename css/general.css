@@ -33,6 +33,7 @@
   #333
   #555
   #6F6F6F
+  #767676
 
 */
 
@@ -89,8 +90,8 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.grid--5-cols {
-  grid-template-columns: repeat(5, 1fr);
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
 }
 
 .grid--center-v {
