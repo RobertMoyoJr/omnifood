@@ -395,7 +395,7 @@
 .pricing-plan--complete::after {
   content: "Best value";
   position: absolute;
-  top: 6%;
+  top: 7%;
   right: -18%;
 
   text-transform: uppercase;
